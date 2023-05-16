@@ -1,5 +1,86 @@
+body {
+	background: linear-gradient(-45deg, #ebe7e5, #dee73c39, #23a5d523, #23d5ab2b);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 90vh;
+}
+
+header {
+    font-family: 'Capriola', sans-serif;
+    font-size: 0.7em;
+    padding: 0.5em 1.5em;
+    color: rgb(255, 140, 0);
+    letter-spacing: 5px;
+}
+
 
 main {
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 80vh;
+}
+
+#left-copy {
+    font-family: 'Capriola', sans-serif;
+    text-align: center;
+    line-height: 10px;
+}
+
+#left-copy h1 {
+    font-size: 8em;
+}
+
+#left-copy h3 {
+    font-size: 2em;
+}
+
+.weather {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 0.387);
+    border: 0.1em solid rgba(239, 239, 239, 0.808);
+    border-radius: 50%;
+}
+
+h2,
+h3 {
+    font-family: 'Capriola', sans-serif;
+}
+
+h2 {
+    margin-top: 180px;
+    font-size: 5em;
+}
+
+h3 {
+    font-size: 3em;
+    font-style: italic;
+}
+
+
+.sunny {
+
+}
+
+.cloudy {
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    line-height: 20px;
+    color:rgba(66, 85, 102, 0.906);
+    background-color: rgba(191, 201, 214, 0.387);
+    border: 0.1em solid rgba(126, 147, 171, 0.808);
+}
+
+
+
+@keyframes gradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
 }

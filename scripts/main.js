@@ -1,6 +1,7 @@
 
 // const requirejs = require('requirejs');
 // require("dotenv").config();
+//Need to dig into above
 
 const hello = document.querySelector("header > h1");
 const weatherContainer = document.querySelector(".weather");
